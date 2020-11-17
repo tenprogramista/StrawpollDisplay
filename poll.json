@@ -1,0 +1,98 @@
+{
+    "pollId": {
+        "group": "STRAWPOLL",
+        "label": "Poll ID:",
+        "type": "number",
+        "step": 1,
+        "value": 1
+    },
+    "refreshDelay": {
+        "group": "STRAWPOLL",
+        "label": "Refresh delay time:",
+        "type": "slider",
+        "value": 3,
+        "min": 1,
+        "max": 60,
+        "step": 1
+    },
+    "topAnswers": {
+        "group": "STRAWPOLL",
+        "label": "Number of top answers:",
+        "type": "slider",
+        "value": 5,
+        "min": 2,
+        "max": 30,
+        "step": 1
+    },
+    "overwriteQuestion": {
+        "group": "STRAWPOLL",
+        "label": "Overwrite poll question?",
+        "type": "checkbox",
+        "value": false
+    },
+    "question": {
+        "group": "STRAWPOLL",
+        "label": "Question:",
+        "type": "text",
+        "value": "Is the question overwritten?"
+    },
+    "fontName": {
+        "group": "APPEARANCE",
+        "label": "Widget Font",
+        "type": "googleFont",
+        "value": "Lato"
+    },
+    "fontSize": {
+        "group": "APPEARANCE",
+        "label": "Font Size",
+        "type": "slider",
+        "value": 20,
+        "min": 8,
+        "max": 56,
+        "step": 2
+    },
+    "fontWeight": {
+    "group": "APPEARANCE",
+    "label": "Font Weight",
+    "type": "dropdown",
+    "value": "400",
+    "options": {
+        "100": "Thin",
+        "200": "Extra-Light",
+        "300": "Light",
+        "400": "Regular",
+        "500": "Medium",
+        "600": "Semi-Bold",
+        "700": "Bold",
+        "800": "Extra-Bold",
+        "900": "Black"
+        }
+    },
+    "letterSpacing": {
+        "group": "APPEARANCE",
+        "label": "Letter Spacing",
+        "type": "slider",
+        "value": 1,
+        "min": 0,
+        "max": 8,
+        "step": 1
+    },
+    "barColor": {
+        "group": "APPEARANCE",
+        "label": "Bar Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF"        
+    },
+    "categoryColor": {
+        "group": "APPEARANCE",
+        "label": "Category Color",
+        "type": "colorpicker",
+        "value": "#000000"        
+    },
+    "percentageColor": {
+        "group": "APPEARANCE",
+        "label": "Percentage Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF"        
+    }
+}
